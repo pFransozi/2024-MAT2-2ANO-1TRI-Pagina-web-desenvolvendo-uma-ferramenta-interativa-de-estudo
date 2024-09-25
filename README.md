@@ -33,6 +33,10 @@ Projeto realizado junto ao 2 ano do EM na disciplina de Matemática II baseado n
   * Estilizar elementos com CSS utilizando seletores;
   * Aplicar as propriedades `flex-grow` e `flex-basis` para dispor os elementos de modo responsivo;
   * Utilizar a função `calc()` para dimensionar elementos com precisão.
+* **Aula 04**
+  * Adicionar uma imagem ao plano de fundo de uma aplicação;
+  * Utilizar variáveis globais de cor em propriedades CSS;
+  * Alterar o peso das fontes nos textos de diferentes elementos da aplicação.
 
 ## Para Saber Mais
 
@@ -48,6 +52,14 @@ Projeto realizado junto ao 2 ano do EM na disciplina de Matemática II baseado n
   * `flex-grow`: essa propriedade especifica a proporção de espaço que um item deve ocupar em relação aos outros itens dentro do mesmo contêiner. Assim, quando o contêiner se expande, os itens com valores maiores de `flex-grow` aumentam mais do que os itens com valores menores. Se temos dois itens no mesmo contêiner e um item tem `flex-grow`: 1 e o outro tem `flex-grow`: 3, o segundo item crescerá três vezes mais do que o primeiro quando o contêiner expandir;
   * `flex-shrink`: a propriedade `flex-shrink` define a capacidade de um item flexível diminuir de tamanho, caso necessário, quando o espaço disponível diminui. Assim, se o contêiner encolher, os itens com valores maiores de `flex-shrink` diminuirão menos do que os itens com valores menores. Por exemplo, se temos dois itens no mesmo contêiner e um item tem `flex-shrink`: 2 e o outro tem `flex-shrink`: 1, o primeiro item diminuirá duas vezes mais do que o segundo quando o contêiner encolher;
   * `flex-basis`: A propriedade `flex-basis` especifica o tamanho inicial de um item flexível antes de distribuir o espaço restante. Dessa forma, é preciso estabelecer o tamanho base do item antes de aplicar as regras de crescimento ou encolhimento. Por exemplo, se um item possui `flex-basis: 100px`, ele começará com 100 pixels de largura antes de considerar o espaço adicional disponível.
+* Variáveis de Cor: Criar variáveis para cores em CSS é uma boa prática de programação e pode ser especialmente útil para quem está começando a programar e deseja manter as coisas organizadas e fáceis de entender:
+  * Consistência: O uso de variáveis de cor garante que as mesmas cores sejam usadas em todo o site, evitando diferenças indesejadas;
+  * acilidade de Manutenção: Se precisar mudar uma cor usada em vários lugares, você só precisa alterar a variável uma vez;
+  * Legibilidade e Organização do Código: Variáveis de cor tornam o CSS mais fácil de ler e entender. Documentação Implícita: Nomes descritivos para as variáveis ajudam a entender para que cada cor é usada.
+  * Reutilização: Facilita a reutilização de estilos em diferentes partes do site, promovendo componentes reutilizáveis.
+  * Redução de Erros: Ajuda a evitar erros ao garantir o uso consistente das mesmas cores. Procure estabelecer variáveis de cor para criar códigos limpos e cheios de estilo.
+
+
 
 ## Links
 
