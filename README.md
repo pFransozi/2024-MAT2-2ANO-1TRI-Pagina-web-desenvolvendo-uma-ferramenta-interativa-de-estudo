@@ -37,30 +37,66 @@ Projeto realizado junto ao 2 ano do EM na disciplina de Matemática II baseado n
   * Adicionar uma imagem ao plano de fundo de uma aplicação;
   * Utilizar variáveis globais de cor em propriedades CSS;
   * Alterar o peso das fontes nos textos de diferentes elementos da aplicação.
+* **Aula 05**
+  * Utilizar a pseudo-classe `:hover` para criar um efeito ao passar com o cursor do mouse sobre um elemento;
+  * Adicionar as propriedades `transform` (transformação) e `transition` (transição) para criar o efeito de transição e rotação em um elemento;
+  * Fazer uso da propriedade `backface-visibility` para controlar se a parte de trás de um elemento deve ser exibida ao usuário;
+  * Alterar espaçamentos internos (`padding`) e externos (`margin`) de um elemento para criar espaçamento entre conteúdos.
+
+
+
+
 
 ## Para Saber Mais
 
-* A importância da Classe Container: Para desenvolver páginas web com boa aparência, layout organizado, flexíveis e de fácil gerenciamento, é necessário que a construção de nossos códigos seja organizada e estruturada, permitindo que o conteúdo da página seja adaptável para diferentes dimensões de tela. Para obtermos esse resultado, o uso de Containers é uma alternativa com diversas vantagens, como:
-  * Separação Lógica do Conteúdo: ao utilizarmos seções, facilitamos a leitura do usuário da página e também a leitura do código-fonte;
-  * Controle de Layout: o uso de containers nos permite ter maior controle sobre o funcionamento de diferentes partes do layout dos elementos da página web;
-  * Facilidade de Manutenção: com a setorização do código, é mais fácil encontrar possíveis erros, o que possibilita um código menos propenso a bugs e evita efeitos indesejados durante a execução da página;
-* Criando espaçamento entre os elementos: Entre as formas mais conhecidas para adicionar espaçamento em uma página web estão as propriedades: 
-  * `margin`, para adicionar um espaçamento externo a um elemento;
-  * `padding`, para adicionar um espaçamento interno a um elemento. 
-  * Ambas podem ser aplicadas nas direções superior, inferior, esquerda ou direita, como já vimos em aulas anteriores. Além dessas opções, há também o uso do Flexbox, um modelo de layout que organiza os elementos de uma aplicação com grande capacidade de alinhamento. Com o uso do Flexbox, é possível ajustar o espaçamento entre elementos usando margens, preenchimento ou a propriedade `justify-content`.
-* Construindo uma identidade visual coerente: o efeito de simetria pode ser produzido em uma página web ao utilizarmos as propriedades de distribuição flexbox para controlar o espaço entre itens flexíveis. Dentre essas propriedades, podemos ressaltar:
-  * `flex-grow`: essa propriedade especifica a proporção de espaço que um item deve ocupar em relação aos outros itens dentro do mesmo contêiner. Assim, quando o contêiner se expande, os itens com valores maiores de `flex-grow` aumentam mais do que os itens com valores menores. Se temos dois itens no mesmo contêiner e um item tem `flex-grow`: 1 e o outro tem `flex-grow`: 3, o segundo item crescerá três vezes mais do que o primeiro quando o contêiner expandir;
-  * `flex-shrink`: a propriedade `flex-shrink` define a capacidade de um item flexível diminuir de tamanho, caso necessário, quando o espaço disponível diminui. Assim, se o contêiner encolher, os itens com valores maiores de `flex-shrink` diminuirão menos do que os itens com valores menores. Por exemplo, se temos dois itens no mesmo contêiner e um item tem `flex-shrink`: 2 e o outro tem `flex-shrink`: 1, o primeiro item diminuirá duas vezes mais do que o segundo quando o contêiner encolher;
-  * `flex-basis`: A propriedade `flex-basis` especifica o tamanho inicial de um item flexível antes de distribuir o espaço restante. Dessa forma, é preciso estabelecer o tamanho base do item antes de aplicar as regras de crescimento ou encolhimento. Por exemplo, se um item possui `flex-basis: 100px`, ele começará com 100 pixels de largura antes de considerar o espaço adicional disponível.
-* Variáveis de Cor: Criar variáveis para cores em CSS é uma boa prática de programação e pode ser especialmente útil para quem está começando a programar e deseja manter as coisas organizadas e fáceis de entender:
-  * Consistência: O uso de variáveis de cor garante que as mesmas cores sejam usadas em todo o site, evitando diferenças indesejadas;
-  * acilidade de Manutenção: Se precisar mudar uma cor usada em vários lugares, você só precisa alterar a variável uma vez;
-  * Legibilidade e Organização do Código: Variáveis de cor tornam o CSS mais fácil de ler e entender. Documentação Implícita: Nomes descritivos para as variáveis ajudam a entender para que cada cor é usada.
-  * Reutilização: Facilita a reutilização de estilos em diferentes partes do site, promovendo componentes reutilizáveis.
-  * Redução de Erros: Ajuda a evitar erros ao garantir o uso consistente das mesmas cores. Procure estabelecer variáveis de cor para criar códigos limpos e cheios de estilo.
+* **Aula 01**
+  * A importância da Classe Container: Para desenvolver páginas web com boa aparência, layout organizado, flexíveis e de fácil gerenciamento, é necessário que a construção de nossos códigos seja organizada e estruturada, permitindo que o conteúdo da página seja adaptável para diferentes dimensões de tela. Para obtermos esse resultado, o uso de Containers é uma alternativa com diversas vantagens, como:
+    * Separação Lógica do Conteúdo: ao utilizarmos seções, facilitamos a leitura do usuário da página e também a leitura do código-fonte;
+    * Controle de Layout: o uso de containers nos permite ter maior controle sobre o funcionamento de diferentes partes do layout dos elementos da página web;
+    * Facilidade de Manutenção: com a setorização do código, é mais fácil encontrar possíveis erros, o que possibilita um código menos propenso a bugs e evita efeitos indesejados durante a execução da página;
+* **Aula 02**
+  * Criando espaçamento entre os elementos: Entre as formas mais conhecidas para adicionar espaçamento em uma página web estão as propriedades: 
+    * `margin`, para adicionar um espaçamento externo a um elemento;
+    * `padding`, para adicionar um espaçamento interno a um elemento. 
+    * Ambas podem ser aplicadas nas direções superior, inferior, esquerda ou direita, como já vimos em aulas anteriores. Além dessas opções, há também o uso do Flexbox, um modelo de layout que organiza os elementos de uma aplicação com grande capacidade de alinhamento. Com o uso do Flexbox, é possível ajustar o espaçamento entre elementos usando margens, preenchimento ou a propriedade `justify-content`.
+* **Aula 03**
+  * Construindo uma identidade visual coerente: o efeito de simetria pode ser produzido em uma página web ao utilizarmos as propriedades de distribuição flexbox para controlar o espaço entre itens flexíveis. Dentre essas propriedades, podemos ressaltar:
+    * `flex-grow`: essa propriedade especifica a proporção de espaço que um item deve ocupar em relação aos outros itens dentro do mesmo contêiner. Assim, quando o contêiner se expande, os itens com valores maiores de `flex-grow` aumentam mais do que os itens com valores menores. Se temos dois itens no mesmo contêiner e um item tem `flex-grow`: 1 e o outro tem `flex-grow`: 3, o segundo item crescerá três vezes mais do que o primeiro quando o contêiner expandir;
+    * `flex-shrink`: a propriedade `flex-shrink` define a capacidade de um item flexível diminuir de tamanho, caso necessário, quando o espaço disponível diminui. Assim, se o contêiner encolher, os itens com valores maiores de `flex-shrink` diminuirão menos do que os itens com valores menores. Por exemplo, se temos dois itens no mesmo contêiner e um item tem `flex-shrink`: 2 e o outro tem `flex-shrink`: 1, o primeiro item diminuirá duas vezes mais do que o segundo quando o contêiner encolher;
+    * `flex-basis`: A propriedade `flex-basis` especifica o tamanho inicial de um item flexível antes de distribuir o espaço restante. Dessa forma, é preciso estabelecer o tamanho base do item antes de aplicar as regras de crescimento ou encolhimento. Por exemplo, se um item possui `flex-basis: 100px`, ele começará com 100 pixels de largura antes de considerar o espaço adicional disponível.
+* **Aula 04**
+  * Variáveis de Cor: Criar variáveis para cores em CSS é uma boa prática de programação e pode ser especialmente útil para quem está começando a programar e deseja manter as coisas organizadas e fáceis de entender:
+    * Consistência: O uso de variáveis de cor garante que as mesmas cores sejam usadas em todo o site, evitando diferenças indesejadas;
+    * acilidade de Manutenção: Se precisar mudar uma cor usada em vários lugares, você só precisa alterar a variável uma vez;
+    * Legibilidade e Organização do Código: Variáveis de cor tornam o CSS mais fácil de ler e entender. Documentação Implícita: Nomes descritivos para as variáveis ajudam a entender para que cada cor é usada.
+    * Reutilização: Facilita a reutilização de estilos em diferentes partes do site, promovendo componentes reutilizáveis.
+    * Redução de Erros: Ajuda a evitar erros ao garantir o uso consistente das mesmas cores. Procure estabelecer variáveis de cor para criar códigos limpos e cheios de estilo.
+* **Aula 05**
+  * Pseudo-classes, Transições e Transformações: Quando estamos aprendendo sobre desenvolvimento web, entender como estilizar nossas páginas de forma dinâmica e atrativa é essencial. Para isso, a linguagem de estilização CSS nos apresenta várias alternativas, dentre elas:
+    * `:hover`: Ao adicionarmos essa palavra-chave a um seletor CSS, podemos criar um efeito sobre um elemento quando o cursor do mouse passar sobre ele. No exemplo abaixo, ao passarmos o mouse sobre o botão, ele adquire a cor rosa.
+      ```
+      button:hover {
+      background-color: pink;
+      }
+      ```
+    * `transforme`: Essa propriedade nos permite aplicar uma série de transformações a um elemento, como mover, girar, escalar e inclinar. Podemos associá-la a propriedade rotate para girar um elemento em torno de um ponto fixo definido, como no exemplo:
+      ```
+      div {
+      transform: rotate(45deg);
+      }
+      ```
+    * `transition`: Já, a propriedade transition permite que as mudanças de estilo em um elemento ocorram de forma suave e projetada durante um período de tempo especificado, criando o efeito de animação sem a necessidade do JavaScript. No exemplo abaixo, estabelecemos que o tempo para que um determinado evento ocorra, como a mudança da cor de fundo do botão, seja de 0.3 segundos e que a transição deverá ser suave.
+      ```
+      button {
+      transition: background-color 0.3s ease;
+      }
+      ```
 
 
 
 ## Links
 
 [Fonts Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree?query=Bai+Jamjuree);
+
+[Guia de animações em CSS: o que são e quais são os principais benefícios](https://www.alura.com.br/artigos/animacoes-em-css#:~:text=As%20propriedades%20CSS%20de%20anima%C3%A7%C3%A3o,ou%20outra%20linguagem%20de%20programa%C3%A7%C3%A3o);
+
