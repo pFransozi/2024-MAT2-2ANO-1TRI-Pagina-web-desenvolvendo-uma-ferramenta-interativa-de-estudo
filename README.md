@@ -52,6 +52,14 @@ Projeto realizado junto ao 2 ano do EM na disciplina de Matemática II baseado n
   * Criar funções em JavaScript para receber parâmetros necessários e desenvolver uma ação;
   * Utilizar o `console.log()` para exibir os parâmetros de uma função no console do navegador e testar se a integração dos arquivos JavaScript está funcionando corretamente;
   * Acessar as ferramentas do desenvolvedor no navegador através da opção Inspecionar do menu de contexto para verificar a saída dos parâmetros dos cartões no console.
+* **Aula 08**
+  * Declarar variáveis do tipo `let` em JavaScript para acessar e manipular elementos HTML existentes em uma página web;
+  * Criar novos elementos HTML dinamicamente através do JavaScript, utilizando o método `document.createElement()`;
+  * inserir conteúdo HTML dentro de elementos criados dinamicamente através da propriedade `.innerHTML`;
+  * Anexar novos elementos criados pelo JavaScript à página web usando o método `appendChild`.
+
+
+
 
 
 
@@ -100,12 +108,39 @@ Projeto realizado junto ao 2 ano do EM na disciplina de Matemática II baseado n
       transition: background-color 0.3s ease;
       }
       ```
+* **Aula 08**
+  * Métodos em JavaScript: Quando uma página web é carregada por um navegador, ele cria uma representação em árvore dessa página, chamada DOM. Essa representação possui uma hierarquia, e cada elemento HTML é chamado de nó. Cada nó pode ter "filhos" (outros elementos contidos neles) e "pais" (elementos que os contêm). Para modificar esses nós, podemos utilizar métodos JavaScript, que são funções associadas a um objeto ou uma variável.
+    * `getElementById`: Este método permite que você encontre um elemento específico pelo seu ID. Por exemplo:
+      ```
+      let container = document.getElementById('container')
 
+      ```
+      Nesse trecho de código, procuramos pelo id container.
+    * `innerHTML`: Este método permite que você obtenha ou altere o conteúdo HTML de um elemento. Por exemplo:
+      ```
+      cartao.innerHTML = `
+              <div class="cartao__conteudo">
+              <!-- Código omitido… -->
+              </div>
+              `
+      ```
+    * `createElement`: Este método cria um novo elemento HTML, mas não o adiciona automaticamente à página. Por exemplo:
+      ~~~html
+      let cartao = document.createElement('article')
+
+      ~~~
+    * `appendChild`: Este método insere um novo nó “filho” (elemento) na estrutura do DOM de um documento. Por exemplo:
+      ```
+      container.appendChild(cartao)
+
+      ```
+      O código acima insere a variável cartao como um elemento “filho” de container.
 
 
 ## Links
 
-[Fonts Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree?query=Bai+Jamjuree);
+[Fonts Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree?query=Bai+Jamjuree)
 
-[Guia de animações em CSS: o que são e quais são os principais benefícios](https://www.alura.com.br/artigos/animacoes-em-css#:~:text=As%20propriedades%20CSS%20de%20anima%C3%A7%C3%A3o,ou%20outra%20linguagem%20de%20programa%C3%A7%C3%A3o);
+[Guia de animações em CSS: o que são e quais são os principais benefícios](https://www.alura.com.br/artigos/animacoes-em-css#:~:text=As%20propriedades%20CSS%20de%20anima%C3%A7%C3%A3o,ou%20outra%20linguagem%20de%20programa%C3%A7%C3%A3o)
 
+[Mais sobre DOM e métodos HTML](https://www.w3schools.com/js/js_htmldom.asp)
