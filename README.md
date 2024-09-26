@@ -47,6 +47,13 @@ Projeto realizado junto ao 2 ano do EM na disciplina de Matemática II baseado n
   * Alterar o espaçamento e alinhamento de elementos de uma aplicação utilizando propriedades CSS;
   * Criar arquivos com extensão `.js` por meio do VS Code;
   * Construir o esboço de uma função em JavaScript e repassar parâmetros para a construção automatizada de elementos de uma página web.
+* **Aula 07**
+  * Vincular o link de arquivos JavaScript ao documento index.html;
+  * Criar funções em JavaScript para receber parâmetros necessários e desenvolver uma ação;
+  * Utilizar o `console.log()` para exibir os parâmetros de uma função no console do navegador e testar se a integração dos arquivos JavaScript está funcionando corretamente;
+  * Acessar as ferramentas do desenvolvedor no navegador através da opção Inspecionar do menu de contexto para verificar a saída dos parâmetros dos cartões no console.
+
+
 
 
 ## Para Saber Mais
