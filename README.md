@@ -42,9 +42,11 @@ Projeto realizado junto ao 2 ano do EM na disciplina de Matemática II baseado n
   * Adicionar as propriedades `transform` (transformação) e `transition` (transição) para criar o efeito de transição e rotação em um elemento;
   * Fazer uso da propriedade `backface-visibility` para controlar se a parte de trás de um elemento deve ser exibida ao usuário;
   * Alterar espaçamentos internos (`padding`) e externos (`margin`) de um elemento para criar espaçamento entre conteúdos.
-
-
-
+* **Aula 06**
+  * Adicionar novos cartões em HTML reaproveitando trechos de código;
+  * Alterar o espaçamento e alinhamento de elementos de uma aplicação utilizando propriedades CSS;
+  * Criar arquivos com extensão `.js` por meio do VS Code;
+  * Construir o esboço de uma função em JavaScript e repassar parâmetros para a construção automatizada de elementos de uma página web.
 
 
 ## Para Saber Mais
