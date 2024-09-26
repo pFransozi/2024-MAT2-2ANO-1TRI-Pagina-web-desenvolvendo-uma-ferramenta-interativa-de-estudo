@@ -57,11 +57,15 @@ Projeto realizado junto ao 2 ano do EM na disciplina de Matemática II baseado n
   * Criar novos elementos HTML dinamicamente através do JavaScript, utilizando o método `document.createElement()`;
   * inserir conteúdo HTML dentro de elementos criados dinamicamente através da propriedade `.innerHTML`;
   * Anexar novos elementos criados pelo JavaScript à página web usando o método `appendChild`.
-
-
-
-
-
+* **Aula 09**
+  * Implementar a função viraCartao para nos permitir virar os cartões da aplicação com um clique;
+  * Utilizar a classe `.active` para controlar a rotação dos cartões;
+  * Alternar a exibição da resposta no cartão através do método `toggle()`;
+  * Promover a escuta de um evento de clique por meio do método `addEventListener()`.
+  * Refinar e ajustar a cor de fundo e o tamanho dos textos nos cartões de resposta, além de adicionar uma borda ao redor do cartão para melhorar sua aparência;
+  * Alterar a estilização para garantir que as margens ocupem toda a dimensão do cartão, utilizando a propriedade `box-sizing` com valor `border-box`;
+  * Adaptar a exibição dos elementos para telas menores, ajustando o fundo da aplicação, a flexibilidade dos cartões e o tamanho das fontes baseado na largura da janela de visualização;
+  * Criar um repositório no GitHub para carregar os arquivos da aplicação e configurar o GitHub Pages para disponibilizar a aplicação online.
 
 
 ## Para Saber Mais
